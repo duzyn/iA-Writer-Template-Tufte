@@ -1,7 +1,35 @@
-@import url('https://cdn.jsdelivr.net/gh/edwardtufte/tufte-css@1.7.2/tufte.css');
-@import url('https://cdn.jsdelivr.net/gh/edwardtufte/tufte-css@1.7.2/latex.css');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap');
+
+@import url('tufte.css');
+@import url('latex.css');
+
+/* https://google-webfonts-helper.herokuapp.com/fonts/noto-serif-sc?subsets=chinese-simplified,latin */
+
+/* noto-serif-sc-regular - latin_chinese-simplified */
+@font-face {
+  font-family: 'Noto Serif SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/noto-serif-sc-v7-latin_chinese-simplified-regular.eot'); /* IE9 Compat Modes */
+  src: local('Noto Serif SC'), local('NotoSerifSC-Regular'),
+       url('../fonts/noto-serif-sc-v7-latin_chinese-simplified-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/noto-serif-sc-v7-latin_chinese-simplified-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/noto-serif-sc-v7-latin_chinese-simplified-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/noto-serif-sc-v7-latin_chinese-simplified-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/noto-serif-sc-v7-latin_chinese-simplified-regular.svg#NotoSerifSC') format('svg'); /* Legacy iOS */
+}
+/* noto-serif-sc-700 - latin_chinese-simplified */
+@font-face {
+  font-family: 'Noto Serif SC';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/noto-serif-sc-v7-latin_chinese-simplified-700.eot'); /* IE9 Compat Modes */
+  src: local('Noto Serif SC Bold'), local('NotoSerifSC-Bold'),
+       url('../fonts/noto-serif-sc-v7-latin_chinese-simplified-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/noto-serif-sc-v7-latin_chinese-simplified-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/noto-serif-sc-v7-latin_chinese-simplified-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/noto-serif-sc-v7-latin_chinese-simplified-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/noto-serif-sc-v7-latin_chinese-simplified-700.svg#NotoSerifSC') format('svg'); /* Legacy iOS */
+}
 
 /* Override Tufte-CSS */
 html {
