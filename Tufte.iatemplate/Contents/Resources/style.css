@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-@import 'tufte.css';
-@import 'latex.css';
-@import 'noto-serif-sc.css';
+@import url('tufte.css');
+@import url('latex.css');
+@import url('noto-serif-sc.css');
 
 /* Override Tufte CSS */
 html {
