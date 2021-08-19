@@ -1,46 +1,35 @@
 /* https://google-webfonts-helper.herokuapp.com/fonts/noto-serif-sc?subsets=chinese-simplified,latin */
 
+
 /* noto-serif-sc-regular - latin_chinese-simplified */
+
 @font-face {
-  font-family: "Noto Serif SC";
-  font-style: normal;
-  font-weight: 400;
-  src: url("noto-serif-sc/noto-serif-sc-v7-latin_chinese-simplified-regular.eot"); /* IE9 Compat Modes */
-  src: local("Noto Serif SC"), local("NotoSerifSC-Regular"),
-    url("noto-serif-sc/noto-serif-sc-v7-latin_chinese-simplified-regular.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */
-      url("noto-serif-sc/noto-serif-sc-v7-latin_chinese-simplified-regular.woff2")
-      format("woff2"),
-    /* Super Modern Browsers */
-      url("noto-serif-sc/noto-serif-sc-v7-latin_chinese-simplified-regular.woff")
-      format("woff"),
-    /* Modern Browsers */
-      url("noto-serif-sc/noto-serif-sc-v7-latin_chinese-simplified-regular.ttf")
-      format("truetype"),
-    /* Safari, Android, iOS */
-      url("noto-serif-sc/noto-serif-sc-v7-latin_chinese-simplified-regular.svg#NotoSerifSC")
-      format("svg"); /* Legacy iOS */
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 400;
+    src: url('noto-serif-sc-v8-latin_chinese-simplified/noto-serif-sc-v8-latin_chinese-simplified-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''), url('noto-serif-sc-v8-latin_chinese-simplified/noto-serif-sc-v8-latin_chinese-simplified-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('noto-serif-sc-v8-latin_chinese-simplified/noto-serif-sc-v8-latin_chinese-simplified-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('noto-serif-sc-v8-latin_chinese-simplified/noto-serif-sc-v8-latin_chinese-simplified-regular.woff') format('woff'), /* Modern Browsers */
+    url('noto-serif-sc-v8-latin_chinese-simplified/noto-serif-sc-v8-latin_chinese-simplified-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('noto-serif-sc-v8-latin_chinese-simplified/noto-serif-sc-v8-latin_chinese-simplified-regular.svg#NotoSerifSC') format('svg');
+    /* Legacy iOS */
 }
+
+
 /* noto-serif-sc-700 - latin_chinese-simplified */
+
 @font-face {
-  font-family: "Noto Serif SC";
-  font-style: normal;
-  font-weight: 700;
-  src: url("noto-serif-sc/noto-serif-sc-v7-latin_chinese-simplified-700.eot"); /* IE9 Compat Modes */
-  src: local("Noto Serif SC Bold"), local("NotoSerifSC-Bold"),
-    url("noto-serif-sc/noto-serif-sc-v7-latin_chinese-simplified-700.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */
-      url("noto-serif-sc/noto-serif-sc-v7-latin_chinese-simplified-700.woff2")
-      format("woff2"),
-    /* Super Modern Browsers */
-      url("noto-serif-sc/noto-serif-sc-v7-latin_chinese-simplified-700.woff")
-      format("woff"),
-    /* Modern Browsers */
-      url("noto-serif-sc/noto-serif-sc-v7-latin_chinese-simplified-700.ttf")
-      format("truetype"),
-    /* Safari, Android, iOS */
-      url("noto-serif-sc/noto-serif-sc-v7-latin_chinese-simplified-700.svg#NotoSerifSC")
-      format("svg"); /* Legacy iOS */
+    font-family: 'Noto Serif SC';
+    font-style: normal;
+    font-weight: 700;
+    src: url('noto-serif-sc-v8-latin_chinese-simplified/noto-serif-sc-v8-latin_chinese-simplified-700.eot');
+    /* IE9 Compat Modes */
+    src: local(''), url('noto-serif-sc-v8-latin_chinese-simplified/noto-serif-sc-v8-latin_chinese-simplified-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('noto-serif-sc-v8-latin_chinese-simplified/noto-serif-sc-v8-latin_chinese-simplified-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('noto-serif-sc-v8-latin_chinese-simplified/noto-serif-sc-v8-latin_chinese-simplified-700.woff') format('woff'), /* Modern Browsers */
+    url('noto-serif-sc-v8-latin_chinese-simplified/noto-serif-sc-v8-latin_chinese-simplified-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('noto-serif-sc-v8-latin_chinese-simplified/noto-serif-sc-v8-latin_chinese-simplified-700.svg#NotoSerifSC') format('svg');
+    /* Legacy iOS */
 }
